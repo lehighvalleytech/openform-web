@@ -1,0 +1,45 @@
+<table class="table table-bordered">
+    <tr>
+        <td>Name of Organization</td>
+        <td colspan="5"><input type="text" class="span10" ng-model="organizationName"/></td>
+    </tr>
+    <tr>
+        <td>Type of Organization</td>
+        <td colspan="5">
+            <label class="radio inline">
+                <input type="radio" value="Profit" ng-model="organizationType"/>
+                Profit
+            </label>
+            <label class="radio inline">
+                <input type="radio" value="Non-Profit" ng-model="organizationType"/>
+                Non-Profit
+            </label>
+            <label class="radio inline">
+                <input type="radio" value="Other" ng-model="organizationType"/>
+                Other
+            </label>
+            <label>If Other:</label>
+            <input type="text" class="span9" ng-model="organizationTypeOther"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td colspan="5"><input type="text" class="span10" ng-model="organizationAddress"/></td>
+    </tr>
+    <tr>
+        <td>City</td>
+        <td><input type="text" ng-model="organizationCity"/></td>
+        <td>State</td>
+        <td><input type="text" class="span1" ng-model="organizationState"/></td>
+        <td>Zip</td>
+        <td><input type="text" class="span2" ng-model="organizationZip"/></td>
+    </tr>
+    <tr>
+        <td>Phone</td>
+        <td><input type="text" class="span2" ng-model="organizationPhone"/></td>
+        <td>Fax</td>
+        <td><input type="text" class="span2" ng-model="organizationFax"/></td>
+        <td>Email</td>
+        <td><input type="text" ng-model="organizationEmail"/></td>
+    </tr>
+</table>
