@@ -191,15 +191,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/test.html",
-			"settings":
-			{
-				"buffer_size": 7,
-				"line_ending": "Unix",
-				"name": "test.html"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -249,6 +240,9 @@
 	},
 	"file_history":
 	[
+		"/Users/i/src/js/openform-web/app/views/test.html",
+		"/Users/i/src/js/openform-web/app/views/partials/test2.html",
+		"/Users/i/src/js/openform-web/app/views/main.html",
 		"/Users/i/src/ruby/rails/payup/app/assets/javascripts/f.js",
 		"/Users/i/Documents/ChuckDoesIT/ls/mike_schwarz/monogram/rt/shop;product_embroidery_options.php",
 		"/Users/i/src/ruby/rails/payup/app/views/layouts/pay.html.haml",
@@ -373,10 +367,7 @@
 		"/Users/i/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/i/src/ruby/rails/sovereigndonations/app/views/layouts/campaign.html.haml",
 		"/Users/i/src/ruby/rails/basin-api/app/models/region.rb",
-		"/Users/i/src/ruby/rails/Basin_dev/config/database.yml",
-		"/Users/i/src/ruby/rails/basin-api/config/database.yml",
-		"/private/var/folders/8n/jlxgzng15475_17d0jk809yr0000gn/T/f999aa58-2b3d-4051-8b27-f96aec19dd2c/modules/lwblogextended/routers/lwblogextended_default_router.php",
-		"/private/var/folders/8n/jlxgzng15475_17d0jk809yr0000gn/T/f999aa58-2b3d-4051-8b27-f96aec19dd2c/modules/lwblogextended/readme.md"
+		"/Users/i/src/ruby/rails/Basin_dev/config/database.yml"
 	],
 	"find":
 	{
@@ -521,33 +512,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/test.html",
-					"settings":
-					{
-						"buffer_size": 7,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7,
-								7
-							]
-						],
-						"settings":
-						{
-							"auto_name": "test.html",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
