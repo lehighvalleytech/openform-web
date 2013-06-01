@@ -1,7 +1,9 @@
 'use strict';
 
-angular.module('openform', [])
-  .config(function ($routeProvider) {
+var openFormApp = angular.module('openform', ['ngResource'])
+  .config(['$httpProvider', '$routeProvider', function ($httpProvider,$routeProvider) {
+    $httpProvider.defaults.useXDomain = true;
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -10,4 +12,4 @@ angular.module('openform', [])
       .otherwise({
         redirectTo: '/'
       });
-  });
+  }]);
