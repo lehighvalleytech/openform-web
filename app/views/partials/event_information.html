@@ -1,0 +1,231 @@
+<table id="eventInformatin" class="table table-bordered">
+  <tr>
+    <td>Event Description</td>
+    <td>
+      <input class="span10" type="text" ng-model="eventDescription" required/>
+    </td>
+  </tr>
+  <tr>
+    <td>Event Type</td>
+    <td>
+      <label class="radio">
+        <input type="radio" ng-model="eventType" value="blockParty" checked>
+        Block Party
+      </label>
+      <label class="radio">
+        <input type="radio" ng-model="eventType" value="parade">
+        Parade
+      </label>
+      <label class="radio">
+        <input type="radio" ng-model="eventType" value="festival">
+        Festival
+      </label>
+      <label class="radio">
+        <input type="radio" ng-model="eventType" value="walk_run">
+        Walk/Run
+      </label>
+      <label class="radio">
+        <input type="radio" ng-model="eventType" value="other">
+        Other
+        <input class="" type="text" ng-model="eventTypeOther" />
+      </label>
+    </td>
+  </tr>
+  <tr>
+    <td>Event Date(s)</td>
+    <td>
+      <input class="" type="text" ng-model="eventDate" />
+      <span>Rain Date</span>
+      <input class="" type="text" ng-model="rainDate" />
+    </td>
+  </tr>
+  <tr>
+    <td>Hours of Opertaion</td>
+    <td>
+      <span>During Event</span>
+      <input class="" type="text" ng-model="duringEvent" />
+      <span>Set Up/Take Down</span>
+      <input class="" type="text" ng-model="setUp_takeDown" />
+    </td>
+  </tr>
+  <tr>
+    <td>On-site Contact Person</td>
+    <td>
+      <span>Name</span>
+      <input class="" type="text" ng-model="onSiteContactName" />
+      <span>Cell Phone #</span>
+      <input class="" type="text" ng-model="onSiteContactCell" />
+    </td>
+  </tr>
+  <tr>
+    <td>Event Location<br/>(Check all that apply)</td>
+    <td>
+      <div class="row">
+        <div class="span10">
+          <input class="span10" type="text" ng-model="eventLocation" required/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span10">
+          <label class="checkbox">
+            <input type="checkbox" ng-model="locationPublicRightOfWay"> Public Right of Way (sidewalk)
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="locationPublicProperty"> Public Property
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="locationPrivateProperty"> Private Property
+          </label>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Event Setup</td>
+    <td>
+      <div class="row">
+        <div class="span10">
+          <label class="checkbox">
+            <input type="checkbox" ng-model="eventSetupTents"> Tents
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="eventSetupOpenBurn"> Open Burn
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="eventSetupFireworks"> Fireworks
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span10">
+          Size of tent? <input class="" type="text" ng-model="eventSetupTentSize" />
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Number of Participants</td>
+    <td>
+      <input class="span10" type="text" ng-model="numberOfParticipants" />
+    </td>
+  </tr>
+  <tr>
+    <td>Road Closure Required?</td>
+    <td>
+      <div class="row">
+        <div class="span10">
+          <label class="radio">
+            <input type="radio" ng-model="roadClosureRequired" value="yes">
+            Yes
+          </label>
+          <label class="radio">
+            <input type="radio" ng-model="roadClosureRequired" value="no" checked>
+            No
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span10">
+          If yes, please list below streets to be closed.
+        </div>
+      </div>
+      <div class="row">
+        <div class="span10">
+          <input class="span10" type="text" ng-model="numberOfParticipants" />
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Will there be items for sale?</td>
+    <td>
+      <div class="row">
+        <div class="span10">
+          <label class="radio">
+            <input type="radio" ng-model="itemsForSale" value="yes">
+            Yes
+          </label>
+          <label class="radio">
+            <input type="radio" ng-model="itemsForSale" value="no" checked>
+            No
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span10">
+          If yes, please describe items.
+        </div>
+      </div>
+      <div class="row">
+        <div class="span10">
+          <input class="span10" type="text" ng-model="itemsForSaleDescription" />
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Will there be food or beverages offered?</td>
+    <td>
+      <div class="row">
+        <div class="span10">
+          <label class="radio">
+            <input type="radio" ng-model="foodOrBeverageOffered" value="yes">
+            Yes
+          </label>
+          <label class="radio">
+            <input type="radio" ng-model="foodOrBeverageOffered" value="no" checked>
+            No
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span10">
+          If yes, please describe items.
+        </div>
+      </div>
+      <div class="row">
+        <div class="span10">
+          <input class="span10" type="text" ng-model="foodOrBeverageForSaleDescription" />
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Will there be alcoholic beverages offered?</td>
+    <td>
+      <div class="row">
+        <div class="span10">
+          <label class="radio">
+            <input type="radio" ng-model="alcoholicBeveragesOffered" value="yes">
+            Yes
+          </label>
+          <label class="radio">
+            <input type="radio" ng-model="alcoholicBeveragesOffered" value="no" checked>
+            No
+          </label>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>Will any other city services be requested?</td>
+    <td>
+      <div class="row">
+        <div class="span10">
+          <label class="checkbox">
+            <input type="checkbox" ng-model="cityServiceTempStructure"> Temp Structure
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="cityServiceCleanUpPlanAttached"> Clean Up Plan Attached
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="cityServiceHydrantUseAdapter"> Hydrant Use Adapter
+          </label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="cityServiceElectricity"> Electricity
+          </label>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
