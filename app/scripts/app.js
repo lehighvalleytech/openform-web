@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('openformWebApp', [])
+angular.module('openform', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
