@@ -13,6 +13,10 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+
+      <style>
+
+      </style>
   </head>
   <body ng-app="openform">
     <!--[if lt IE 7]>
@@ -24,6 +28,18 @@
       <script src="components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container" style="width: auto; padding: 0 20px;">
+                <a class="brand" href="#">Open Form</a>
+                <ul class="nav pull-right">
+                    <!--<li class="active"><a href="#">New Form</a></li>-->
+                    <li><button class="btn btn-primary">Enter New Form</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <!-- Add your site or application content here -->
     <div class="container" ng-view></div>
 
@@ -32,6 +48,7 @@
     <script src="components/angular-resource/angular-resource.js"></script>
     <script src="components/angular-cookies/angular-cookies.js"></script>
     <script src="components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="components/bootstrap/js/bootstrap.js"></script>
 
     <!-- build:js scripts/scripts.js -->
     <script src="scripts/app.js"></script>
