@@ -1,0 +1,122 @@
+<table class="table table-bordered">
+	<tr>
+		<td colspan="5" bgcolor="#DCDCDC">
+			Bethlehem City Ordinance #3321 States, “All persons shall source separate the designated recyclables generated at commercial, municipal, or institutional establishments and from community activities.” Designated recyclables mean glass, plastic 1-7, aluminum, and steel cans (co-mingled material), and corrugated cardboard.
+			<br><br>
+			You can either 1) hire a private hauler to collect your recycling 2) self-haul your recycling collected in your own recycling containers to a recycling processor, or 3) lease recycling containers and/or trailers from the Recycling Bureau and self-haul your recycling to a recycling processor. Regardless of collection method, copies of weight slips must be turned in to the Recycling Bureau with in 2 business days of the close of the event.
+		</td>
+	<tr>
+		<td>Event Name</td>
+		<td colspan="5"><input type="text" class="span10" ng-model="eventName"/></td>
+	</tr>
+	<tr>
+		<td>Event Type</td>
+		<td colspan="5">
+			<label class="radio inline">
+				<input type="radio" value="Fair" ng-model="eventFair"/>
+				Fair
+			</label>
+			<label class="radio inline">
+				<input type="radio" value="Social/Picnic" ng-model="eventPicnic"/>
+				Social/Picnic
+			</label>
+			<label class="radio inline">
+				<input type="radio" value="Festival" ng-model="eventFestival"/>
+				Festival
+			</label>
+			<label class="radio inline">
+				<input type="radio" value="Sporting Event" ng-model="eventSport"/>
+				Sporting Event
+			</label>
+			<label class="radio inline">
+				<input type="radio" value="Other" ng-model="eventOther"/>
+				Other
+			</label>
+			<label>If Other:</label>
+			<input type="text" class="span9" ng-model="eventTypeOther"/>
+		</td>
+	</tr>
+	<tr>
+		<td>Event Start Date</td>
+		<td colspan="2"><input type="text" class="span4" ng-model="eventStartDate"/></td>
+		<td>Time</td>
+		<td colspan="2"><input type="text" class="span4" ng-model="eventStartTime"/></td>
+	</tr>
+	<tr>
+		<td>Event Completion Date</td>
+		<td colspan="2"><input type="text" class="span4" ng-model="eventCompletionDate"/></td>
+		<td>Time</td>
+		<td colspan="2"><input type="text" class="span4" ng-model="eventCompletionTime"/></td>
+	</tr>
+	<tr>
+		<td>Event Location</td>
+		<td colspan="2"><input type="text" class="span4" ng-model="eventLocation"/></td>
+		<td>Neighborhood</td>
+		<td><input type="text" class="span4" ng-model="eventNeighborhood"/></td>
+	</tr>
+	<tr>
+		<td>Estimated Daily Attendance</td>
+		<td colspan="2"><input type="text" class="span2" ng-model="eventAttendance"/></td>
+		<td>Organization Name</td>
+		<td colspan="3"><input type="text" class="span4" ng-model="organizationName"/></td>
+	</tr>
+	<tr>
+		<td>Contact Person(s)</td>
+		<td colspan="5"><input type="text" class="span10" ng-model="contactPerson"/></td>
+	</tr>
+	<tr>
+		<td>Contact Mailing Address</td>
+		<td colspan="5"><input type="text" class="span10" ng-model="contactAddress"/></td>
+	</tr>
+	<tr>
+		<td>Primary Contact Phone</td>
+		<td colspan="2"><input type="text" class="span4" ng-model="contactPhoneOne"/></td>
+		<td>Alternative Contact Phone</td>
+		<td colspan="2"><input type="text" class="span4" ng-model="contactPhoneTwo"/></td>
+	</tr>
+	<tr>
+		<td>Email Address</td>
+		<td colspan="2"><input type="text" class="span4" ng-model="contactEmail"/></td>
+		<td>Fax Number</td>
+		<td colspan="2"><input type="text" class="span4" ng-model="contactFax"/></td>
+	</tr>
+	<label>
+		<td colspan="5">
+			How would recycling be provided for your event?
+			<br>
+			<label class="radio inline" style="margin-right:20px">
+				<input type="radio" value="Private Hauler/Contractor" ng-model="privateHauler"/>
+				Private Hauler/Contractor
+			</label>
+			<label class="radio inline" style="margin-right:20px">
+				<input type="radio" value="OwnContainers" ng-model="ownContainers"/>
+				Self-Collection with Own Containers
+			</label>
+			<label class="radio inline">
+					<input type="radio" value="CityContainers" ng-model="cityContainers"/>
+					Self-Collection with City-Owned Rented Containers
+			</label>
+		</td>
+		<tr>
+			<td>Signature Event Manager</td>
+			<td colspan="2"><input type="text" class="span4" ng-model="signatureManager"/></td>
+			<td>Date</td>
+			<td colspan="2"><input type="text" class="span4" ng-model="signatureDate"/></td>
+		</tr>
+	</label>
+	<label>
+		<td colspan="5" bgcolor="#DCDCDC">
+			If you wish to utilize City equipment, please read the statement below and check the box next to it and contact the cities Recycling Bureau to confirm available equipment quintiles and requirements.
+		<br><br>
+		<label class="checkbox inline">
+			<input type="checkbox" value="recycleBins" ng-model="recycleBins"/>
+			I wish to utilize the type of equipment listed below at the above event. I understand that the equipment is to be returned the Cities Yard waste facility within 2 business days clean and un-damaged. Any loss or damage to any of the equipment due to negligence will be my responsibility. Either a Weight Slip or proof of delivery to Theis/Cornfeld Recycling center will be needed at time of return to receive your deposit.
+		</label>
+		<tr>
+			<td colspan="3" bgcolor="#DCDCDC" style="text-align:center">Deposit of $50 per bin ($5 rental included in deposit)</td>
+			<td bgcolor="#DCDCDC">Number of Bins</td>
+			<td bgcolor="#DCDCDC"><input type="text" class="span2" ng-model="eventTypeOther"/></td>
+		</tr>
+	</td>
+	</label>
+</table>
