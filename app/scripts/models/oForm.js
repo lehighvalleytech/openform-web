@@ -1,6 +1,6 @@
 'use strict';
 
-openFormApp.service('oFormService', ['oForm', '$http', function (oForm,$http) {
+openForm.service('oFormService', ['oForm', '$http', function (oForm,$http) {
 
     return {
         saveForm:function (oForm,method) {

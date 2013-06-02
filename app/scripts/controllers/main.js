@@ -1,23 +1,34 @@
 'use strict';
 
-openFormApp.controller('MainCtrl', ['$scope', function ($scope) {
-    $scope.submitForm = function() {
-      console.log('submitting form');
-      window.location = 'http://youtu.be/oHg5SJYRHA0';
-      //MARK, DO SOMETHING CLEVER HERE
-      return false;
+openForm.controller('MainCtrl', ['$scope','$http','api', function ($scope,$http,api) {
+    $scope.submitForm = function () {
+        console.log('submitting form');
+        //window.location = 'http://youtu.be/oHg5SJYRHA0';
+        //MARK, DO SOMETHING CLEVER HERE
+        //return false;
 
-      var frm = {};
-      frm.specialEventApplication = {};
-      frm.specialEventApplication.applicant = {};
-      frm.specialEventApplication.applicant.name = 'Charles';
-      frm = $.param( frm );
+        var form = {};
+        form.specialEventApplication = {};
+        form.specialEventApplication.applicant = {};
+        form.specialEventApplication.applicant.name = 'Charles';
+        //form = $.param(form);
 
-      $http({
-        method: 'POST',
-        url: 'https://tjlytle.fwd.wf/form/event',
-        data: frm,
-        headers: {'Content-Type': 'application/x-www-form-urlencoded'}
-      });
+        var encodedForm = encodeURIComponent(JSON.stringify(form));
+
+        $scope.data = api.post(encodedForm);
+
+        console.log($scope.data);
+
+//      $http({
+//        method: 'POST',
+//        url: 'http://of.bytecost.com/form/event/',
+//        data: form,
+//        headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+//      });
+    };
+
+    $scope.printForm = function () {
+        //$scope.data = api.get('')
+        window.open('http://of.bytecost.com/form/event/a805a8a73a748ca71d528a69b192ebd4?format=pdf');
     }
-  }]);
+}]);

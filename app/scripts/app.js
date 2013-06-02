@@ -1,6 +1,6 @@
 'use strict';
 
-var openFormApp = angular.module('openform', ['ngResource'])
+var openForm = angular.module('openform', ['ngResource'])
   .config(['$httpProvider', '$routeProvider', function ($httpProvider,$routeProvider) {
     //CORS nonsense
     $httpProvider.defaults.useXDomain = true;
