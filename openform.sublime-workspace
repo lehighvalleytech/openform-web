@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"open",
+				"openFormApp"
+			],
+			[
 				"o",
 				"oFormService"
 			],
@@ -199,7 +203,7 @@
 			"file": "app/views/main.html",
 			"settings":
 			{
-				"buffer_size": 66,
+				"buffer_size": 318,
 				"line_ending": "Unix"
 			}
 		},
@@ -215,7 +219,7 @@
 			"file": "app/scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 273,
+				"buffer_size": 458,
 				"line_ending": "Unix"
 			}
 		},
@@ -223,7 +227,7 @@
 			"file": "app/scripts/models/oForm.js",
 			"settings":
 			{
-				"buffer_size": 1602,
+				"buffer_size": 2361,
 				"line_ending": "Unix"
 			}
 		},
@@ -231,7 +235,7 @@
 			"file": "app/scripts/controllers/main.js",
 			"settings":
 			{
-				"buffer_size": 136,
+				"buffer_size": 196,
 				"line_ending": "Unix"
 			}
 		},
@@ -239,7 +243,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 2208,
+				"buffer_size": 2280,
 				"line_ending": "Unix"
 			}
 		}
@@ -440,6 +444,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"specialEventApplication",
+			"rou",
+			"joke",
+			"testing",
 			"invoice",
 			"cor",
 			"InvoiceList",
@@ -541,6 +549,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"frm",
+			"testing",
 			"oForm",
 			"button_basic",
 			"Settings",
@@ -564,7 +574,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -572,15 +582,15 @@
 					"file": "app/views/main.html",
 					"settings":
 					{
-						"buffer_size": 66,
+						"buffer_size": 318,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								268,
+								268
 							]
 						],
 						"settings":
@@ -605,8 +615,8 @@
 						"selection":
 						[
 							[
-								6665,
-								6665
+								1198,
+								1198
 							]
 						],
 						"settings":
@@ -616,7 +626,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3070.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -626,15 +636,15 @@
 					"file": "app/scripts/app.js",
 					"settings":
 					{
-						"buffer_size": 273,
+						"buffer_size": 458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								76,
+								76
 							]
 						],
 						"settings":
@@ -654,15 +664,15 @@
 					"file": "app/scripts/models/oForm.js",
 					"settings":
 					{
-						"buffer_size": 1602,
+						"buffer_size": 2361,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								426,
-								426
+								1064,
+								1064
 							]
 						],
 						"settings":
@@ -672,7 +682,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 520.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -682,15 +692,15 @@
 					"file": "app/scripts/controllers/main.js",
 					"settings":
 					{
-						"buffer_size": 136,
+						"buffer_size": 196,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								45,
-								45
+								179,
+								179
 							]
 						],
 						"settings":
@@ -708,15 +718,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 2208,
+						"buffer_size": 2280,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1702,
-								1702
+								1368,
+								1368
 							]
 						],
 						"settings":
@@ -726,7 +736,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 61.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

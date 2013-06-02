@@ -1,8 +1,11 @@
 
-<form method="POST" action="https://tjlytle-fwd-wf-27y2nrna61hm.runscope.net/form/event">
+<form method="POST">
+    <h2>Applicant Information</h2>
     <div ng-include="'/views/partials/applicant.html'"></div>
+    <h2>Organization Information</h2>
     <div ng-include="'/views/partials/organization.html'"></div>
+    <h2>Event Information</h2>
     <div ng-include="'/views/partials/event_information.html'"></div>
-    <input type="submit"/>
+    <button type="button" ng-click='submitForm()' class="btn btn-primary">Submit</button>
 </form>
 
